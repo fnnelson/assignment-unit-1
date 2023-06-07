@@ -24,20 +24,22 @@ h1 {
 p {
     font-style: italic;
     color: #e63946;
+    margin-left: 5px;
 }
 
 header,
 footer {
     background-color: #1d3557;
     padding: 0.5%;
+    margin: 0px;
 }
 
 img {
     max-width: 400px;
-    border: solid black 2px;
+    border: solid #1d3557 2px;
     padding: 2px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin: 10px;
+
 }
 
 ul {
@@ -47,4 +49,15 @@ ul {
 
 div {
     margin: 10px;
+}
+
+@media (max-width: 450px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    ul {
+        font-size: 0.75em;
+    }
 }
